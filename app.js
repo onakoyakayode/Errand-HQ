@@ -38,7 +38,7 @@ function confirmPassword() {
 
 function signUpBtn() {
 
-    /**Full name */
+    /**Full name Validation */
     let fullName = document.getElementById('fullName').value;
     let errorName = document.getElementById('name-err');
 
@@ -50,7 +50,6 @@ function signUpBtn() {
     } catch(err) {
         errorName.innerHTML = err;
     }
-
 
     /** Email Validation */
 
