@@ -286,11 +286,11 @@
 
     .password img {
         position: absolute;
-        bottom: 15%;
+        bottom: 14%;
         right: 10px;
         width: 16px;
         height: 16px;
-        opacity: .8;
+        opacity: .6;
         cursor: pointer;
     }
 
@@ -332,11 +332,11 @@
 
     .confirm-password img {
         position: absolute;
-        bottom: 15%;
+        bottom: 14%;
         right: 10px;
         width: 16px;
         height: 16px;
-        opacity: .8;
+        opacity: .6;
         cursor: pointer;
     }
 
@@ -791,7 +791,7 @@
         right: 10px;
         width: 18px;
         height: 18px;
-        opacity: .8;
+        opacity: .6;
         cursor: pointer;
     }
 
@@ -837,7 +837,7 @@
         right: 10px;
         width: 18px;
         height: 18px;
-        opacity: .8;
+        opacity: .6;
         cursor: pointer;
     }
 
