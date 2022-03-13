@@ -44,12 +44,12 @@ function signUpBtn() {
 
     errorName.innerHTML = "";
 
-    try {
+    try { 
         if (fullName == "") throw "Input is empty";
-        if (fullName.type != "text") throw "Enter a valid name";
     } catch(err) {
         errorName.innerHTML = err;
     }
+
 
 
     /** Email Validation */
@@ -60,7 +60,8 @@ function signUpBtn() {
     emailError.innerHTML = "";
 
     try {
-        if (emailValidation != '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/') throw "Enter a valid email address"
+        if (emailValidation == "") throw "Email is required"
+        if (emailValidation === '/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/') throw "";
     } catch(err) {
         emailError.innerHTML = err;
     }
