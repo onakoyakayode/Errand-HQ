@@ -294,6 +294,17 @@
         cursor: pointer;
     }
 
+    #slash {
+        position: absolute;
+        color: #82489C;
+        width: 20px;
+        height: 20px;
+        right: 9px;
+        bottom: 12px;
+        display: none;
+    }
+
+
 
     /***** Confirm Password *****/
 
@@ -793,6 +804,7 @@
         height: 18px;
         opacity: .6;
         cursor: pointer;
+        position: relative;
     }
 
 

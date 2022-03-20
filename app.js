@@ -1,3 +1,7 @@
+
+
+
+
 /**** Password Reveal */
 
 function passwordReveal() {
@@ -14,8 +18,13 @@ function passwordReveal() {
     x.style.border = "1px solid rgba(28, 55, 90, 0.16)";
     x.style.borderRadius = "6px";
     x.style.fontSize = "16px";
-    x.style.lineHeight = "22px"
+    x.style.lineHeight = "22px";
 }
+
+
+
+
+
 
 /***** Confirm Password Reveal ******/
 function confirmPassword() {
@@ -65,3 +74,4 @@ function signUpBtn() {
     }
 
 }
+
