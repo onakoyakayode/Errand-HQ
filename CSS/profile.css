@@ -12,6 +12,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     min-height: 100vh;
+    max-height: 100vh;
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -31,7 +32,8 @@ header .profile {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 70px 0 50px 0;
+    padding: 10% 0 13% 0;
+    height: 45%;
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -44,8 +46,8 @@ header .profile {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px 0 50px 0;
-        height: 45vh;
+        padding: 20px 0 30px 0;
+        height: 50vh;
     }
 }
 
@@ -193,13 +195,13 @@ header .profile {
 /** Main **/
 .main-wrapper {
     background-color: #FFF;
-    margin: 36px 0;
+    margin: 12% 0;
     padding: 0 20px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .main-wrapper {
-        margin: 60px 0;
+        margin: 8% 0;
         padding: 0 40px;
     }
 }
@@ -248,7 +250,7 @@ header .profile {
     align-items: center;
     padding: 13px;
     text-decoration: none;
-    margin: 0 0 13px 0;
+    margin: 0 0 4% 0;
     opacity: 1;
 }
 
@@ -256,7 +258,7 @@ header .profile {
     .user-profile a {
         height: 60px;
         padding: 13px;
-        margin: 0 0 15px 0;
+        margin: 0 0 4% 0;
     }
 }
 
@@ -375,11 +377,10 @@ header .profile {
 }
 
 
-
 /** Footer **/
 .footer-wrapper {
     border-top: 1px solid #545454;
-    padding: 10px 0px 5px 0px;
+    padding: 10px 0px 0px 0px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
@@ -388,7 +389,7 @@ header .profile {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .footer-wrapper {
         border-top: 1px solid #545454;
-        padding: 10px 0px 5px 0px;
+        padding: 2% 0px 0% 0px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         place-items: center;
@@ -425,8 +426,8 @@ header .profile {
 }
 
 .user img {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     margin: 9px 0 -10px 0px;
 }
 
