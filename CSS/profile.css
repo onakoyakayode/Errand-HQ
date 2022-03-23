@@ -12,7 +12,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     min-height: 100vh;
-    max-height: 100vh;
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -182,10 +181,6 @@ header .profile {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     #balance-amount::before {
         position: absolute;
-        content: url('/Icons/Naira.png');
-        width: 17.5px;
-        height: 17.5px;
-        left: -17.5px;
         top: -1px;
         transform: scale(1.1);
     }
